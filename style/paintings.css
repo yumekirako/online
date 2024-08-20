@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+
+html {
+    font-family: "Shippori Mincho", serif; /* Apply font to entire page */
+}
+h1,h2,h3,h4{
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+}
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:lighter;
+    font-size: 11pt;
+    text-align: justify;
+}
+:root {
+    --primary-color: #2D2D2D;
+    --secondary-color: #D8AB7C;
+    --accent1-color: #989428;
+    --accent2-color: #B68F62;
+
+    --heading-font: 'Shippori Mincho', serif;
+    --paragraph-font: 'Inter', sans-serif;
+
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #FF9100;
+    --nav-hover-background-color: #000000;
+}
+
+html, body {
+    padding: 50px;
+    margin: 0;
+    height: 100%;
+    background-color: #252525;
+}
+
+body {
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    height: auto;
+}
+header{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+header h1{
+    color: #ffffff;
+    font-size: 40pt;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.paintings{
+    column-gap: 20px;
+}
+.paintings img{
+    aspect-ratio: 2 / 2;
+    width: 30%;
+    padding: 0 10px;
+    object-fit: cover;
+}
+.texts {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+.kanji{
+    width: 30%;
+}
+.socials{
+    width: 70%;
+}
+.kanji h2{
+    font-size: 45pt;
+    color:#ffffff
+}
+.socials h4{
+    font-size: 16pt;
+    color:#ffffff
+}
+.socials p{
+    color:#ffffff;
+}
+.socials h5{
+    text-align: right;
+    color: #ffffff;
+    font-size: 13pt;
+    text-decoration: none;
+}
+.socials a{
+    text-decoration: none;
+}
+.socials h5:hover{
+    color:#FF9100;
+}
